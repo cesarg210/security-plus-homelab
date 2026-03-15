@@ -16,16 +16,16 @@ The goal is to simulate how security engineers harden systems and produce logs t
 
 ## Lab Environment
 
-- Ubuntu Server -> Domain Controller (Samba AD)
-- Ubuntu Server -> SIEM Server
-- Windows 11 ARM -> Domain Workstation
-- Kali Linux -> Attacker Machine
+- Ubuntu Server → Domain Controller (Samba AD)
+- Ubuntu Server → SIEM Server
+- Windows 11 ARM → Domain Workstation
+- Kali Linux → Attacker Machine
 
 Internal Lab Network:
 - 192.168.200.0/24
-- Domain Controller -> 192.168.200.10 
-- SIEM Server -> 192.168.200.20 
-- Windows Client -> 192.168.200.30 
+- Domain Controller → 192.168.200.10 
+- SIEM Server → 192.168.200.20 
+- Windows Client → 192.168.200.30 
 
 ---
 
