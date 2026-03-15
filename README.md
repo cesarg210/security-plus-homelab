@@ -1,11 +1,11 @@
-# Phase 2: Security Hardening & Logging
+# 🔐 Phase 2: Security Hardening & Logging
 
 This phase focuses on implementing host-based security controls and generating security telemetry that can later be ingested into a SIEM platform.
 The goal is to simulate how security engineers harden systems and produce logs that SOC analysts use for detection and investigation.
 
 ---
 
-## Phase Objectives
+## ✅ Phase Objectives
 
 • Enable detailed security logging on Windows systems  
 • Implement host-based firewall controls on Linux servers  
@@ -14,7 +14,7 @@ The goal is to simulate how security engineers harden systems and produce logs t
 
 ---
 
-## Lab Environment
+## 🖥️ Lab Environment
 
 - Ubuntu Server → Domain Controller (Samba AD)
 - Ubuntu Server → SIEM Server
