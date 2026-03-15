@@ -5,7 +5,7 @@ The goal is to simulate how security engineers harden systems and produce logs t
 
 ---
 
-# Phase Objectives
+## Phase Objectives
 
 • Enable detailed security logging on Windows systems  
 • Implement host-based firewall controls on Linux servers  
@@ -14,7 +14,7 @@ The goal is to simulate how security engineers harden systems and produce logs t
 
 ---
 
-# Lab Environment
+## Lab Environment
 
 - Ubuntu Server -> Domain Controller (Samba AD)
 - Ubuntu Server -> SIEM Server
@@ -29,15 +29,15 @@ Internal Lab Network:
 
 ---
 
-# Focus Areas
+## Focus Areas
 
-## Windows Advanced Audit Policies
+### Windows Advanced Audit Policies
  
 Advanced audit policies are enabled to capture authentication activity, privilege usage, and process execution.
 
 ---
 
-## Linux Firewall Configuration
+### Linux Firewall Configuration
 
 A host-based firewall is implemented using **UFW (Uncomplicated Firewall)**.
 
@@ -47,19 +47,19 @@ This reduces the attack surface by restricting network exposure to only necessar
 
 ---
 
-## Authentication Failure Simulations
+### Authentication Failure Simulations
 
 Controlled authentication failures will be generated in order to produce realistic security events. These events allow analysis of how authentication failures appear in system logs.
 
 ---
 
-## Log Analysis and Event Review
+### Log Analysis and Event Review
 
 Security logs from both Windows and Linux systems will be analyzed to build familiarity with raw log analysis before centralized logging is introduced.
 
 ---
 
-# Phase Outcome
+## Phase Outcome
 
 At the end of this phase the lab environment will have:
 
