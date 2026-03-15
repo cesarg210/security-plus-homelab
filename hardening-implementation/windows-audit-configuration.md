@@ -29,6 +29,7 @@ Advanced Audit Policies allow administrators to configure detailed logging that 
 - Audit Process Creation
 - Command line Logging
 - Command line in process creation events
+
 This allows analysts to see the exact commands executed by processes, which is extremely valuable for detecting malicious activity.
 
 ### Step 3 - Logs were verified using Event Viewer:
