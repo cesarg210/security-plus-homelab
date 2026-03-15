@@ -18,21 +18,20 @@ Advanced Audit Policies allow administrators to configure detailed logging that 
 - Group Policy Editor
 - Windows Event Viewer
 
-### Step 1 – Open Local Security Policy
+### Step 1 – Open Local Security Policy:
 ![security policy](../screenshots/local-security-policy.png)
 
 ### Step 2 – Enable:
+![Configured policies](../screenshots/configured-audit-policies.png)
 - Logon Auditing
 - Audit Credential Validation
 - Process Creation Logging
 - Audit Process Creation
 - Command line Logging
 - Command line in process creation events
-![Configured policies](../screenshots/configured-audit-policies.png)
-
 This allows analysts to see the exact commands executed by processes, which is extremely valuable for detecting malicious activity.
 
-### Logs were verified using Event Viewer:
+### Step 3 - Logs were verified using Event Viewer:
 
 ![Event Veiwer](../screenshots/Windows-auditing-enabled.png)
 
