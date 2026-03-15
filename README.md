@@ -1,4 +1,4 @@
-Phase 2: Security Hardening & Logging
+# Phase 2: Security Hardening & Logging
 
 This phase focuses on implementing host-based security controls and generating security telemetry that can later be ingested into a SIEM platform.
 The goal is to simulate how security engineers harden systems and produce logs that SOC analysts use for detection and investigation.
