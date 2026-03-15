@@ -32,7 +32,7 @@ This allows analysts to see the exact commands executed by processes, which is e
 
 ### Logs were verified using Event Viewer:
 
-[Event Veiwer](./screenshots/Windows-auditing-enabled.png)
+![Event Veiwer](../screenshots/Windows-auditing-enabled.png)
 
 ##Outcome
 
