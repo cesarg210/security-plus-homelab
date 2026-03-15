@@ -14,23 +14,20 @@ Initial state:
 
 Status: inactive
 
-### Step 2 – Enable the Firewall
-
-Run:
-
-sudo ufw enable
-
-This activates the firewall and applies default policies.
-
-### Step 3 – Verify Default Policy
+### Step 2 – Enable the Firewall & Verify Default Policy
 ![firewall verbose](../screenshots/firewall-verbose.png)
-This creates a default deny inbound security model.
+This activates the firewall and applies default policies and creates a default deny inbound security model.
 
-### Step 4 – Allow Required Domain Services
+### Step 3 – Allow Required Domain Services
 
 The Domain Controller must expose specific services to support authentication.
 
 ![firewall rules](../screenshots/DC-Firewall-rules.png)
+- Port 22 for SSH from client
+- Port 53 to allow DNS queries from internal network
+- Port 88 for kerberos authentication
+- Port 389 for LDAP
+- Port 445 for SMB 
 
 ## Security Impact
 The firewall now enforces a least privilege access model.
