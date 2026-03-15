@@ -31,13 +31,13 @@ Internal Lab Network:
 
 ## ✍🏽 Focus Areas
 
-### Windows Advanced Audit Policies
+### 1. Windows Advanced Audit Policies
  
 Advanced audit policies are enabled to capture authentication activity, privilege usage, and process execution.
 
 ---
 
-### Linux Firewall Configuration
+### 2. Linux Firewall Configuration
 
 A host-based firewall is implemented using **UFW (Uncomplicated Firewall)**.
 
@@ -47,13 +47,13 @@ This reduces the attack surface by restricting network exposure to only necessar
 
 ---
 
-### Authentication Failure Simulations
+### 3. Authentication Failure Simulations
 
 Controlled authentication failures will be generated in order to produce realistic security events. These events allow analysis of how authentication failures appear in system logs.
 
 ---
 
-### Log Analysis and Event Review
+### 4. Log Analysis and Event Review
 
 Security logs from both Windows and Linux systems will be analyzed to build familiarity with raw log analysis before centralized logging is introduced.
 
