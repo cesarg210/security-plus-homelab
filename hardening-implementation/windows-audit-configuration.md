@@ -36,7 +36,7 @@ This allows analysts to see the exact commands executed by processes, which is e
 
 ![Event Veiwer](../screenshots/Windows-auditing-enabled.png)
 
-##Outcome
+## Outcome
 
 Windows now produces detailed security logs that can be used for:
 - authentication monitoring
