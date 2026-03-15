@@ -23,7 +23,7 @@ sudo ufw enable
 This activates the firewall and applies default policies.
 
 ### Step 3 – Verify Default Policy
-![firewall verbose](../screenshots/firewall.verbose.png)
+![firewall verbose](../screenshots/firewall-verbose.png)
 This creates a default deny inbound security model.
 
 ### Step 4 – Allow Required Domain Services
