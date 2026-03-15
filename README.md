@@ -7,14 +7,10 @@ The goal is to simulate how security engineers harden systems and produce logs t
 
 # Phase Objectives
 
-The objectives of this phase are to:
-
 • Enable detailed security logging on Windows systems  
 • Implement host-based firewall controls on Linux servers  
 • Simulate authentication failures and suspicious activity  
 • Analyze system logs to understand how security events are recorded  
-
-These activities create realistic telemetry that will later be centralized during the **SIEM Deployment phase**.
 
 ---
 
