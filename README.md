@@ -1,7 +1,6 @@
-# Security+ Homelab – Phase 2: Security Hardening & Logging
+Phase 2: Security Hardening & Logging
 
 This phase focuses on implementing host-based security controls and generating security telemetry that can later be ingested into a SIEM platform.
-
 The goal is to simulate how security engineers harden systems and produce logs that SOC analysts use for detection and investigation.
 
 ---
@@ -38,11 +37,7 @@ Internal Lab Network:
 
 ## Windows Advanced Audit Policies
  
-Advanced audit policies are enabled to capture authentication activity, privilege usage, and process execution, providing visibility into:
-- successful and failed logins  
-- account modifications  
-- process creation events  
-- privilege escalation activity  
+Advanced audit policies are enabled to capture authentication activity, privilege usage, and process execution.
 
 ---
 
@@ -58,25 +53,13 @@ This reduces the attack surface by restricting network exposure to only necessar
 
 ## Authentication Failure Simulations
 
-Controlled authentication failures will be generated in order to produce realistic security events such as:
-
-• failed Windows login attempts  
-• invalid domain authentication attempts  
-• Linux sudo authentication failures  
-
-These events allow analysis of how authentication failures appear in system logs.
+Controlled authentication failures will be generated in order to produce realistic security events. These events allow analysis of how authentication failures appear in system logs.
 
 ---
 
 ## Log Analysis and Event Review
 
-Security logs from both Windows and Linux systems will be analyzed to understand:
-
-• how authentication failures are recorded  
-• which event IDs correspond to suspicious activity  
-• what telemetry will later be forwarded to the SIEM  
-
-This phase builds familiarity with **raw log analysis before centralized logging is introduced**.
+Security logs from both Windows and Linux systems will be analyzed to build familiarity with raw log analysis before centralized logging is introduced.
 
 ---
 
