@@ -11,7 +11,7 @@ Advanced Audit Policies allow administrators to configure detailed logging that 
 - privilege usage
 - process execution
 
-## account management activity
+## Account management activity
 
 ### Tools Used
 - Windows Local Security Policy
