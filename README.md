@@ -29,7 +29,7 @@ Internal Lab Network:
 
 ---
 
-## Focus Areas
+## ✍🏽 Focus Areas
 
 ### Windows Advanced Audit Policies
  
@@ -59,7 +59,7 @@ Security logs from both Windows and Linux systems will be analyzed to build fami
 
 ---
 
-## Phase Outcome
+## 💯 Phase Outcome
 
 At the end of this phase the lab environment will have:
 
