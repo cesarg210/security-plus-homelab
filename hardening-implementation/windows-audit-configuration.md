@@ -19,14 +19,16 @@ Advanced Audit Policies allow administrators to configure detailed logging that 
 - Windows Event Viewer
 
 ### Step 1 – Open Local Security Policy
+![security policy](../screenshots/local-security-policy.png)
 
 ### Step 2 – Enable:
 - Logon Auditing
 - Audit Credential Validation
 - Process Creation Logging
 - Audit Process Creation
-- Command Line Logging
-- Lommand line in process creation events
+- Command line Logging
+- Command line in process creation events
+![Configured policies](../screenshots/configured-audit-policies.png)
 
 This allows analysts to see the exact commands executed by processes, which is extremely valuable for detecting malicious activity.
 
