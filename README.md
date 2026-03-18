@@ -22,10 +22,10 @@ The goal is to simulate how security engineers harden systems and produce logs t
 - Kali Linux → Attacker Machine
 
 Internal Lab Network:
-- 192.168.200.0/24
-- Domain Controller → 192.168.200.10 
-- SIEM Server → 192.168.200.20 
-- Windows Client → 192.168.200.30 
+- 192.168.85.0/24
+- Domain Controller → 192.168.85.10 
+- SIEM Server → 192.168.85.20 
+- Windows Client → 192.168.85.30 
 
 ---
 
