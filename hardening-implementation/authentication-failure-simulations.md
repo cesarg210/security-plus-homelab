@@ -10,6 +10,7 @@ Observed Event ID 4625.
 
 ## Linux Testing
 ![linux testing](../screenshots/linux-login-testing.png)
+![client testing](../screenshots/client-ssh-testing.png)
 Generated failed sudo and SSH attempts.
 Observed entries in /var/log/auth.log.
 
