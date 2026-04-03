@@ -23,6 +23,7 @@ This activates the firewall and applies default policies and creates a default d
 The Domain Controller must expose specific services to support authentication.
 
 ![firewall rules](../screenshots/DC-Firewall-rules.png)
+- UPDATE: changed ip scope in firewall to 192.168.85.0/24 for internal network
 - Port 22 for SSH from client
 - Port 53 to allow DNS queries from internal network
 - Port 88 for kerberos authentication
